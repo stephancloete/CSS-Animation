@@ -1,0 +1,25 @@
+ /* The animation code */
+ @keyframes animatedSquare {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+  /* The element to apply the animation to */
+  div {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    padding: 0rem;
+    background-color: red;
+    animation-name: animatedSquare;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
+  } 
+
+  #logo {
+    width: auto;
+    height: auto;
+}

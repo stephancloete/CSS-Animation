@@ -1,0 +1,29 @@
+@keyframes animatedLogo {
+    0% {transform: rotate(0deg);
+        filter: hue-rotate(0deg);}
+    25% {transform: rotate(90deg);
+        filter: hue-rotate(90deg);}
+    50% {transform: rotate(180deg);
+        filter: hue-rotate(180deg);}
+    100% {transform: rotate(360deg);
+        filter: hue-rotate(360deg);}
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    padding: 0rem    
+  } 
+
+  div:hover {
+    animation-name: animatedLogo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  #logo {
+    width: auto;
+    height: auto;
+}
